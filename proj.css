@@ -69,15 +69,11 @@
   }  
   .one {
       height: 100%;
-      width: 100%;/*
-      height: 300px;
-      width: 300px;*/
+      width: 100%;
   }  
   .two {
       width: 100%;
-      height: 100%;/*
-      width: 100px;
-      height: 100px;*/
+      height: 100%;
       background-image: url('image-header-mobile.jpg');
   }
     
@@ -109,110 +105,5 @@
         height: 100%;
 
     }
-    
-}
-
-    /*
-section {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px solid black;
-    background-color: black;
-}
-.container {
-    width: 50%;
-    height: 60vh;
-
-}
-.one {
-    color: rgb(243, 233, 233);
-    background:hsl(244, 38%, 16%) ;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-   justify-content: center;
-   
-   padding-left: 4rem;
-    
-    
-}
-.one h1  {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-.one div {
-    margin: 20px;
-}
-.one p {
-    margin-top: 10px;
-}
-
-
- 
-.two {
-    background: url('image-header-desktop.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 60px;
-    position: relative;
-    overflow: hidden;
-    width: 40%;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    background:rgb(118, 32, 179);
-    opacity: 0.6;
-}
-@media screen and (max-width:350px){
-    section {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        
-    }
-    .container {
-        width: 100%;
-        height: 100%;
-    }
-    .one {
-       height: 70%;
-        width: 100%;
-    }
-    .two {
-        width: 100vw;
-        height:30%;
-    }
-    .divs {
-        display: flex;
-        flex-direction: column;
-        
-    }
-    
-}
-
-.divs {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.uno p {
-    font-size:10px;
-}
-.uno h3 {
-    font-size: 25px;
-}/*s
-@media  screen and(max-width:350px) {
     
 }
